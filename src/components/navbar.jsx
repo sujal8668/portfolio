@@ -88,22 +88,22 @@ const Navbar = () => {
       </div>
       <div className="md:flex hidden gap-4 justify-end w-1/3 ">
         <Link href="https://github.com/sujal8668" target="_blank">
-          <Image src="/github.png" alt="" width={24} height={24} />
+          <Image src="/github.png" alt="image" width={24} height={24} />
         </Link>
         <Link href="https://instagram.com" target="_blank">
-          <Image src="/instagram.png" alt="" width={24} height={24} />
+          <Image src="/instagram.png" alt="image" width={24} height={24} />
         </Link>
         <Link href="https://facebook.com" target="_blank">
-          <Image src="/facebook.png" alt="" width={24} height={24} />
+          <Image src="/facebook.png" alt="image" width={24} height={24} />
         </Link>
         <Link href="https://pinterest.com" target="_blank">
-          <Image src="/pinterest.png" alt="" width={24} height={24} />
+          <Image src="/pinterest.png" alt="image" width={24} height={24} />
         </Link>
         <Link href="https://linkedin.com" target="_blank">
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
+          <Image src="/linkedin.png" alt="image" width={24} height={24} />
         </Link>
         <Link href="https://dribbble.com" target="_blank">
-          <Image src="/dribbble.png" alt="" width={24} height={24} />
+          <Image src="/dribbble.png" alt="image" width={24} height={24} />
         </Link>
       </div>
       {/* RESPONSIVE MENU */}

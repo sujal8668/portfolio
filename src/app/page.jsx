@@ -8,7 +8,7 @@ const Homepage = () => {
         <div>
           <Image
             src="/myImage.jpg"
-            alt=""
+            alt="image"
             height={100}
             width={100}
             className="rounded-full h-40 w-40 object-cover object-center"
@@ -16,7 +16,7 @@ const Homepage = () => {
         </div>
         <h3 className="text-center text-xl md:text-2xl mb-3 flex gap-2 font-semibold ">
           Hi! I'm Sujal Parmar{" "}
-          <Image src="/hand-icon.png" height={20} width={25} />
+          <Image src="/hand-icon.png" alt="image" height={20} width={25} />
         </h3>
         <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-bold ">
           Full stack web developer
@@ -37,7 +37,7 @@ const Homepage = () => {
             download
             className="px-7 py-3 border rounded-[10px] border-gray-500 flex items-center gap-2 "
           >
-            My resume <Image src="/download-icon.png" width={17} height={24} />{" "}
+            My resume <Image src="/download-icon.png" alt="image" width={17} height={24} />{" "}
           </a>
         </div>
       </div>
